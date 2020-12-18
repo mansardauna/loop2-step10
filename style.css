@@ -78,3 +78,12 @@ input:focus{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+.post{
+    background-color: white;
+    width: 100vw;
+    height: 3em;
+    margin-top: 2px;
+}
+.wide{
+    
+}
