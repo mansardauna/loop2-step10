@@ -90,12 +90,18 @@ input:focus{
     font-weight: 300;
     font-size: 13px;
 }
-#post{
+#post,#post1{
     padding-bottom: 1em;
     margin-top: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+#post1{
+    border-bottom: rgb(115, 184, 233) 2px solid;
+    
 }
 #post:hover{
-    border-bottom: blue 3px solid;
+    border-bottom: rgb(115, 184, 233) 2px solid;
     cursor: pointer;
 
 }
