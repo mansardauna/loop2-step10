@@ -85,5 +85,17 @@ input:focus{
     margin-top: 2px;
 }
 .wide{
-    
+    width: 30em;
+    margin-left: 12em;
+    font-weight: 300;
+    font-size: 13px;
+}
+#post{
+    padding-bottom: 1em;
+    margin-top: 1em;
+}
+#post:hover{
+    border-bottom: blue 3px solid;
+    cursor: pointer;
+
 }
