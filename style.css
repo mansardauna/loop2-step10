@@ -205,3 +205,57 @@ input:focus{
     padding-bottom: 1em;
 
 }
+.mid{
+    width: 40em;
+    height: 22em;
+    background-color: white;
+    margin-top: 1.5em;
+    margin-left: 1em;
+}
+#arc{
+    width: 12em;
+    height: 12em;
+}
+.pics1{
+    width: 13em;
+}
+.head{
+    border-bottom: #e3e7e9 1px solid;
+    padding: 1em;
+}
+.arrow{
+    width: 1em;
+    height: 1em;
+    padding: .5em;
+    border: 1px solid rgb(0, 0, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.row{
+    width: 4.5em;
+    justify-content: space-between;
+}
+.sub{
+    padding: 1em;
+    width: 40em;
+}
+#myths{
+    width: 11em;
+    font-size: 17px;
+    font-weight: 400;
+}
+#head{
+    font-weight: 600;
+    font-size: 17px;
+}
+#feb{
+    font-weight: 400;
+    font-size: 13px;
+    color: #b3b5b6;
+}
