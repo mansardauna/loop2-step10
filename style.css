@@ -3,6 +3,7 @@ body{
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #f6f8f9;
+    overflow-x: hidden;
 }
 .flex{
     display: flex;
@@ -73,7 +74,7 @@ input:focus{
 .icon{
     width: 7em;
 }
-#avatar{
+#avatar,#avatar1{
     width: 3em;
     height: 3em;
     border-radius: 50%;
@@ -107,5 +108,100 @@ input:focus{
 #post:hover{
     border-bottom: rgb(115, 184, 233) 2px solid;
     cursor: pointer;
+
+}
+.left{
+    background-color: white;
+    height: 32em;
+    width: 14em;
+    margin-left: 10em;
+    margin-top: 1.5em;
+    padding: 2em 0;
+}
+#avatar1{
+    width: 6em;
+    height: 6em;
+    margin: 0 auto;
+}
+#name{
+    margin: 1em auto 0;
+    font-weight: 500;
+    font-size: 19px;
+}
+#foun{
+    margin: .2em auto;
+    font-weight: 400;
+    font-size: 13px;
+
+}
+#great{
+    font-weight: 400;
+    color: grey;
+    margin:.2em auto;
+    font-size: 13px;
+
+}
+.follow,.connect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9em;
+    margin:.5em 2em;
+    height: 1em;
+    color: white;
+    padding: .5em;
+    background-color:rgb(115, 184, 233);
+    border-radius: 10em;
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    -ms-border-radius: 10em;
+    -o-border-radius: 10em;
+}
+.connect{
+    background-color: white;
+    border: rgb(115, 184, 233) 1px solid;
+    color: rgb(115, 184, 233);
+}
+.tri{
+    width: 14em;
+    margin-top: 1em;
+    border-top: 1px solid #e3e7e9;
+    border-bottom: 1px solid #e3e7e9;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 1em; */
+}
+.arr{
+    align-items: center;
+}
+.down{
+    border-left: 1px solid #e3e7e9;
+    height: 5em;
+    width: 7em;
+    justify-content: center;
+}
+.up{
+    margin-left: 1em;
+}
+#amnt{
+    font-weight: 500;
+}
+#con{
+    font-size: 13px;
+    font-weight: 400;
+    color: #b3b5b6;
+}
+.link{
+    padding: 1em 1em 0;
+}
+#link{
+    color: #b3b5b6;
+    margin-left: .5em;
+    font-size: 13px;
+    
+}
+.bottom{
+    border-bottom: 1px solid #e3e7e9;
+    padding-bottom: 1em;
 
 }
