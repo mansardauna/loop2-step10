@@ -322,6 +322,7 @@ input:focus{
 }
 .back{
     margin-left: 0;
+    height: 60em;
 }
 .sum{
     margin-top: 2em;
@@ -348,17 +349,49 @@ input:focus{
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    position: relative;
+    
 }
 .shift{
     margin-left: 3em;
 }
 .tin{
     border-left: #b3b5b6 1px solid;
-    height: 5em;
+    height: 3em;
     padding: 1em;
-    margin-top: -.5em;
+    margin-top: -.3em;
+    margin-left: .3em;
+    position: relative;
 
 }
+#co{
+    font-weight: 300;
+}
+#micro{
+    font-size: 15px;
+    font-weight: 400;
+    color:rgb(115, 184, 233);
+}
 #date{
-    font-size: 12px;
+    font-size: 11px;
+    color: #b3b5b6;
+    margin-left: 1em;
+}
+#logo1{
+    width: 7em;
+    height: 2em;
+}
+.spread{
+    width: 35em;
+    justify-content: space-between;
+}
+.pad{
+    padding: .5em 1em ;
+}
+.dep{
+    margin-top: 1em;
+}
+.height{
+    height: 3em;
+    justify-content: space-between;
 }
