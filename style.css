@@ -263,8 +263,8 @@ input:focus{
     font-weight: 400;
 }
 #head{
-    font-weight: 600;
-    font-size: 17px;
+    font-weight: 500;
+    font-size: 15px;
 }
 #feb{
     font-weight: 300;
@@ -322,4 +322,43 @@ input:focus{
 }
 .back{
     margin-left: 0;
+}
+.sum{
+    margin-top: 2em;
+    margin-left: 1em;
+    width: 10em;
+    align-items: center;
+}
+#sum{
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: .5em;
+}
+.lorem{
+    margin: 1em 1em 1em 3em ;
+    font-weight: 300;
+}
+.ball{
+    width: .1em;
+    height: .1em;
+    border: #b3b5b6 1px solid;
+    padding: .2em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.shift{
+    margin-left: 3em;
+}
+.tin{
+    border-left: #b3b5b6 1px solid;
+    height: 5em;
+    padding: 1em;
+    margin-top: -.5em;
+
+}
+#date{
+    font-size: 12px;
 }
