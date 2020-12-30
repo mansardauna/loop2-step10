@@ -356,7 +356,7 @@ input:focus{
     margin-left: 3em;
 }
 .tin{
-    border-left: #b3b5b6 1px solid;
+    border-left: #cbcdce 1px solid;
     height: 3em;
     padding: 1em;
     margin-top: -.3em;
@@ -368,8 +368,8 @@ input:focus{
     font-weight: 300;
 }
 #micro{
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 350;
     color:rgb(115, 184, 233);
 }
 #date{
